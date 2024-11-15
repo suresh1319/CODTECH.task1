@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="task1.html">
+</head>
+<body>
+    <header id="nav-container">
+        <div id="logo">
+            <img src="logo.png" height="75px" id="logo-img">
+        </div>
+        <div class="hamburger" id="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="back" >
+            <p><h2>&#10005;</h2></p>
+        </div>
+        <nav id="navbar">
+            <ul id="ul" class="active">
+                <li><a href="#aboutme">About</a></li>
+               
+                <li><a href="#projects">Projects</a></li>
+                
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <section id="main-left">
+            <div id="inner-left">
+             <h1 id="name" class="typing">HII THERE,<br>I'M SURESH</h1>
+             <span id="skill">Front-End Web Developer</span>
+             <a href="#aboutme" id="about">About me</a>
+             <div id="social">
+             <a href="#linkedin" class="social"><i class="fa-brands fa-linkedin"></i></a>
+             <a href="#instagram" class="social"><i class="fa-brands fa-square-instagram"></i></a>
+             <a href="#github" class="social"><i class="fa-brands fa-github"></i></a>
+             </div>
+            </div>
+        </section>
+        <section id="main-right">
+            <div id="inner-right">
+
+            </div>
+            <a href="#hireme" id="hireme">Hire me</a>
+        </section>
+    </main>
+    
+    <section id="aboutme">
+       <h1 class="animate-on-scroll">About Me</h1>
+        <p style="color: white;">Hello! I'm Suresh, a passionate front-end developer with a knack for creating engaging and visually appealing web applications. With expertise in HTML, CSS, and JavaScript, I love transforming complex problems into intuitive and interactive experiences.</p>
+        <p style="color: white;">I thrive in collaborative environments and enjoy working with diverse teams to bring creative ideas to life. Let's build something amazing together!</p>
+        <h2 class="animate-on-scroll">Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Responsive Web Design</li>
+            <li>Frameworks: React, bootstarp</li>
+           
+        </ul>
+        <h2 class="animate-on-scroll">Education</h2>
+        <p style="color: white;">Bachelor of Technology in INFORMATION TECHNOLOGY<br>
+        Malla Reddy Engineering College, Year of Graduation: 2027</p>
+        <h2 class="animate-on-scroll">Interests</h2>
+        <p style="color: white;">When I'm not coding, I enjoy exploring new technologies, reading about advancements in AI, and hiking in the great outdoors. I also love playing chess and dabbling in graphic design.</p>
+    </section>
+    
+    <section id="projects">
+        <h1 class="animate-on-scroll">Projects</h1>
+        <div class="projects-container">
+            <div class="project-card">
+                <h2>Project 1</h2>
+                <video class="project-video" controls>
+                    <source src="projectvideo.mp4" type="video/mp4">
+                    
+                </video>
+                <p>Pure Care Fitness</p>
+                <button class="more-info-btn">Trainer and Trainee Connection:
+
+                    Users can find and connect with fitness trainers and enthusiasts based on location and fitness needs. Trainers list their profiles, expertise, and available services, while trainees search for trainers who align with their goals.
+                    The platform offers filtering options for users to search for trainers by skill set, location, or specialty (e.g., strength training, cardio, yoga, etc.).
+                    Online Communication and Scheduling:
+                    </button>
+                <div class="project-info">
+                    <p>
+                    </p>
+                </div>
+                <a href="projectvideo.mp4" download class="download-btn">Download</a> 
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="animate-on-scroll">Contact Me</h1>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <div>
+        <h4><i class="fa-regular fa-copyright"></i>All Rights are Reservered</h4>
+        </div>
+        <div id="socialfooter">
+            <a href="www.linkedin.com/in/
+            suresh-b00b86309
+            " class="social"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#instagram" class="social"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#github" class="social"><i class="fa-brands fa-github"></i></a>
+            </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
