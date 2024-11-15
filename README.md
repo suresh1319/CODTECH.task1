@@ -6,6 +6,9 @@ Duration: October 23 to November 23 2024
 
 OVERVIEW OF THE PROJECT
 
+![Screenshot 2024-11-15 190006](https://github.com/user-attachments/assets/1942305d-680e-4184-80ca-75bd90522314)
+
+
 Project: Personal Portfolio Website
 Objective
 The primary objective of my portfolio project is to showcase my skills, experience, and projects as a front-end developer. It serves as a digital resume and personal brand hub, helping you connect with potential employers, clients, or collaborators in the tech industry.
